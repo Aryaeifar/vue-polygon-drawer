@@ -1,0 +1,44 @@
+{
+  "name": "vue-polygon-drawer",
+  "version": "0.1.1",
+  "private": false,
+  "description": "A Vue 3 component for drawing and interacting with polygons on an image.",
+  "type": "module",
+  "main": "dist/vue-polygon-drawer.umd.js",
+  "module": "dist/vue-polygon-drawer.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/vue-polygon-drawer.es.js",
+      "require": "./dist/vue-polygon-drawer.umd.js"
+    },
+    "./dist/index.css": "./dist/index.css"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.2.0"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "polygon",
+    "drawing",
+    "canvas",
+    "image",
+    "npm",
+    "package",
+    "composition-api"
+  ],
+  "author": "Ali-Arya",
+  "license": "MIT"
+}
